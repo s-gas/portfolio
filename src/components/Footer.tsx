@@ -1,8 +1,13 @@
+import Link from "./Link";
+
 const Footer = () => {
   return (
-    <div className="mt-60">
-      <p className="text-secondary text-xs">© {new Date().getFullYear()}</p>
-    </div>
+    <footer className="flex flex-col gap-4 sm:flex-row justify-between mt-60 text-sm text-secondary">
+      <Link href="https://github.com/s-gas">GITHUB</Link>
+      <Link href="https://www.linkedin.com/in/simone-gasparini-0b95a5179">LINKEDIN</Link>
+      <Link href="mailto:simone.gasparini.2@gmail.com">EMAIL</Link>
+      <p>© {new Date().getFullYear()}</p>
+    </footer>
   );
 };
 
