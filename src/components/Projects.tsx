@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section className="flex flex-col mt-60">
       <div className="border-b border-secondary pb-2">
-        <h2 className="text-secondary">PROJECTS</h2>
+        <h2 className="text-secondary text-sm">PROJECTS</h2>
       </div>
       <Project href="https://github.com/s-gas/meg-zki" title="meg-zki" description="PORTFOLIO WEBSITE" />
       <Project href="https://github.com/s-gas/gasmetrics" title="gasmetrics" description="GAS CONSUMPTION TRACKER" />
