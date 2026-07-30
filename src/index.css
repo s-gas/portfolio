@@ -8,8 +8,9 @@
 
 @theme {
     --color-primary: #1e1e1e;
-    --color-secondary: #5C5C5C;
-    --color-bg: #E7E7E7;
+    --color-secondary: #505050;
+    --color-bg: #EFEFEF;
+    --color-border: #6A6A6A;
 }
 
 :root {

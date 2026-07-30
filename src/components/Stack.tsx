@@ -1,7 +1,7 @@
 const Stack = () => {
   return (
     <section>
-      <div className="border-b border-secondary pb-2 mt-60">
+      <div className="border-b border-border pb-2 mt-60">
         <h2 className="text-secondary text-sm">TECH STACK</h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-2 sm:gap-6 pt-6">
