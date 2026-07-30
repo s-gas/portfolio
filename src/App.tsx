@@ -5,7 +5,7 @@ import Stack from "./components/Stack"
 
 function App() {
   return (
-    <div className="flex flex-col mx-8 sm:mx-16 my-10">
+    <div className="flex flex-col px-8 sm:px-16 py-10">
       <Hero />
       <Projects />
       <Stack />

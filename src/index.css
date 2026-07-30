@@ -7,12 +7,12 @@
 }
 
 @theme {
-  --color-primary: #1e1e1e;
-  --color-secondary: #757575;
-  --color-bg: #FBFBFB;
+    --color-primary: #1e1e1e;
+    --color-secondary: #5C5C5C;
+    --color-bg: #E7E7E7;
 }
 
-body {
+:root {
     font-family: 'Space Grotesque', sans-serif;
     font-weight: 300;
     color: var(--color-primary);
